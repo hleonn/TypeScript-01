@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Month Cost</title>
+  <link rel="stylesheet" href="css/main.css" >
+</head>
+<body>
+  <header>Typescript project</header>
+  <main>
+    <!-- <section id="displayup" id="displayup2"></section> -->
+    <div id="displaydate">Week day
+        <input type= "datetime-local" id="displayday"></input>
+      </div>
+    <div id="container">Daily Costs
+      <div id="display">b</div>
+      <div id="displayup">c</div>
+      <div id="displayup2">c</div>
+      <div id="displayup3">c</div>  
+    </div>
+    
+    
+    <section id="editor" >
+      <div id="input-container" >
+        <input type="text" id="title" placeholder="Insert title..." >
+        <input type="number" id="cost" placeholder="Price 45.56..." >
+        <select name="" id="currency" >
+          <option value="MXN" >MXN🇲🇽</option>
+          <option value="USD" >USD🇺🇸</option>
+          <option value="EUR" >EUR🇪🇺</option>
+        </select>
+      </div>
+      <button id="bAdd" >Add </button>
+    </section>
+
+    <section id="items" ></section>
+    <div id="fil">Register & Files
+      <input type="file" class='fancy-file' id="archivo" name="avatar" accept="image/*"/>
+      <label for="archivo">
+        <span class='fancy-file__fancy-file-name'>
+          <span>Ningun archivo seleccionado</span>
+        </span>
+          <span class='fancy-file__fancy-file-button'>Search File </span>
+      </label>
+      
+    </div>
+  </main>
+        
+          
+        
+        
+
+  <script src="js/expenses.js" ></script><!-- 1st manda llamar a expenses -->
+  <script src="js/index.js" ></script><!-- 2nd -->
+
+</body>
+</html>
